@@ -1,6 +1,6 @@
 
 start_message = """
-**Hello {}, Your SpamX - Assistant here!**
+**Hello {}, Your Spam - Assistant here!**
 
 __~ You can control your clients using me!__
 """
@@ -361,7 +361,7 @@ porn_links = [
 
 class helpMessages:
     start = """
-**Help menu of SpamX**
+**Help menu of Spam**
 
 __Your Command handler -__ `{0}`
 
@@ -370,7 +370,7 @@ __Your Command handler -__ `{0}`
     """
 
     basic = """
-**Basic Commands of SpamX**
+**Basic Commands of Spam**
 
  1) `{0}ping` - __to check ping.__
  2) `{0}alive` - __to check is SpamX is alive.__
@@ -383,7 +383,7 @@ __Your Command handler -__ `{0}`
     """
 
     spam = """
-**Spam Commands of SpamX**
+**Spam Commands of Spam**
 
  1) `{0}spam` (counts) (spam message or reply to message/media) - __to start normal spam.__
  2) `{0}delayspam` | `{0}dpsam` (delay in secs.) (counts) (spam message or reply to message/media) - __to start delay spam.__
@@ -399,12 +399,12 @@ __Your Command handler -__ `{0}`
     """
 
     profile = """
-**Profile Commands of SpamX**
+**Profile Commands of KSpam**
 
  1) `{0}setpic` | `{0}updatepic `(reply to media) - __to update profile pic.__
  2) `{0}setname` | `{0}updatename` (new name) - __to update profile name.__
  3) `{0}setbio` | `{0}updatebio` (new bio) - __to update profile bio.__
- 4) `{0}setall` | `{0}updateall` (new name) - __using this command SpamX will update name of users in sequence. [e.g #1 SpamX]__
+ 4) `{0}setall` | `{0}updateall` (new name) - __using this command SpamX will update name of users in sequence. [e.g #1 KSpam]__
 
 
 **For more info join @{1} & ask!**
@@ -435,7 +435,7 @@ __Your Command handler -__ `{0}`
     """
 
     extra = """
-*Extra Commands of SpamX**
+*Extra Commands of KSpam**
 
  1) `{0}echo` | `{0}repeat`(message or reply to message/media) - __to repeat message for fun.__
  2) `{0}broadcast` | `{0}gcast` (message or reply to message/media)- __to global cast, add `copy` to cast message as it is without forward [only in reply message].__
